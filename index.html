@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8" />
-    <title>Pok&eacute;mon DESOLATION Calculator</title>
+    <title>Pok&eacute;mon Desolation Calculator</title>
     <link type="text/css" rel="stylesheet" href="./js/vendor/select2/select2.css" />
     <link type="text/css" rel="stylesheet" href="./css/main.css?bab98f2f" />
     <link type="text/css" rel="stylesheet" href="./css/vendor/bootstrap.css" />
@@ -42,9 +42,9 @@
 
     <div aria-label="Settings" role="region">
         <div>
-	<span class="title-text">Pokémon DESOLATION Damage Calculator</span>
-	</div>
-    	<div>
+		<span class="title-text">Pokémon Desolation Damage Calculator</span>
+		</div>
+		<div>
         <span class="genSelection" aria-labelledby="selectGenInstruction" role="radiogroup" title="Select the generation.">
             <span class="visually-hidden" id="selectGenInstruction">Select the generation.</span>
             <input class="gen visually-hidden" type="radio" name="gen" value="1" id="gen1"><label class="btn btn-small btn-left" for="gen1">RBY</label>
@@ -57,7 +57,7 @@
 			   <input class="gen visually-hidden" type="radio" name="gen" value="8" id="gen8"><label class="btn btn-wide btn-mid" for="gen8">Postgame</label>
             <input class="gen visually-hidden" type="radio" name="gen" value="9" id="gen9"><label class="btn btn-small btn-right" for="gen9">Deso</label>
         </span>
-	</div>
+		</div>
         <span class="notationSelection" aria-labelledby="selectNotationInstruction" role="radiogroup" title="Select the output notation.">
             <span class="visually-hidden" id="selectNotationInstruction">Select the output notation.</span>
             <input class="notation visually-hidden" type="radio" name="notation" id="pixels" value="px"><label class="btn btn-small btn-left" for="pixels">48th</label>
@@ -744,11 +744,6 @@
                     <div id="box-poke-list" class="box-poke dropzone">
                     </div>
                 </div>
-                <div>
-                    <legend class="dropzone" align="center">Box 2</legend>
-                    <div id="box-poke-list2" class="box-poke dropzone">
-                    </div>
-                </div>
                 <hr>
                 <div>
                     <legend align="center">Color Codes</legend>
@@ -902,7 +897,7 @@
 					<input class="visually-hidden terrain-trigger calc-trigger" type="checkbox" name="terrain" value="Starlight" id="starlight" /><label class="btn btn-xxxwide btn-left" for="starlight">Starlight</label>
 					<input class="visually-hidden terrain-trigger calc-trigger" type="checkbox" name="terrain" value="Superheated" id="superheated" /><label class="btn btn-xxxwide btn-mid" for="superheated">Super-Heated</label>
 					<input class="visually-hidden terrain-trigger calc-trigger" type="checkbox" name="terrain" value="Underwater" id="underwater" /><label class="btn btn-xxxwide btn-right" for="underwater">Underwater</label>
-					<input class="visually-hidden terrain-trigger calc-trigger" type="checkbox" name="terrain" value="Water" id="water" /><label class="btn btn-xxwide btn" for="water">Water Surface</label>
+					<input class="visually-hidden terrain-trigger calc-trigger" type="checkbox" name="terrain" value="Water" id="water" /><label class="btn btn-xxxwide btn" for="water">Water Surface</label>
 					<div>
 					<label class="btn btn-xwide btn-left">Darkness</label>
 					<input class="visually-hidden terrain-trigger calc-trigger" type="checkbox" name="terrain" value="Darkness 1" id="darkness1"/><label class="btn btn-wide btn-mid" for="darkness1">Stage 1</label>
@@ -1217,12 +1212,6 @@
                         </tr>
                     </tbody>
                 </table>
-            </fieldset>
-        </div>
-        <div aria-label="Import team" role="region">
-            <fieldset class="note-button">
-                <legend align="center">Note</legend>
-                <button id="open-note">Open Notes</button>
             </fieldset>
         </div>
         <div aria-label="Import team" role="region">
@@ -1758,25 +1747,6 @@
                 </div>
             </fieldset>
         </div>
-        <div aria-label="trainer-poks" role="region">
-            <fieldset class="poke-info" id="trainer-mons">
-                <legend align="center"> OPPOSING TEAM</legend>
-                <div class="trainer-poks">
-                    <div id="trainer-pok-list-opposing" class="trainer-pok-list-opposing dropzone calc-trigger">
-                    </div>
-                    <div id="trainer-pok-list-opposing2" class="dropzone calc-trigger" 
-                    data-placeholder=" For doubles you can drag & drop the opposing pokemons here,
-                     only the first one off each row will be calculated against. Top left always top calc and Bot left always bot calc" hidden>
-                    </div>
-                </div>
-                <!--hr>
-                <button id="set-double-opp">Set in doubles</button-->
-                <hr>
-                <button type="button" id="previous-trainer"> Previous Trainer</button>
-                <button type="button" id="next-trainer"> Next Trainer</button>
-                <button type="button" id="reset-trainer">Truck</button>
-            </fieldset>
-        </div>
     </div>
     <div class="right-side-pannel side-pannel" hidden>
         <button data-set="i-f-o-type" class="r-side-button">
@@ -1971,7 +1941,7 @@
     <script type="text/javascript" src="./js/moveset_import.js?806ae144"></script>
 </div>
 
-<div class="credits">Original Created by Honko, maintained by Austin and Kris. Modified by Ander for Pokemon Reborn and by Defen for Pokemon Desolation. Additional help from Nathan Melons.
+<div class="credits">Original Created by Honko, maintained by Austin and Kris. Modified by Ander for Pokemon Reborn. Modified by Defen for Pokemon Desolation w/ help from Nathan Melons.
     <ul>
         <li><a href="https://github.com/ForwardFeed/runbuncalc" class="links-lighten" target="_blank">Modification Repository</a></li>
         <br>
