@@ -3630,11 +3630,40 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy",
             "isCustomSet": true
-        }
-    },
-	"Mightyena-Mega": {
+        },
 		"Dream Catcher Aurora 1": {
             "ability": "Intimidate",
+            "level": 58,
+            "evs": {
+                "hp": 85,
+                "at": 85,
+                "df": 85,
+                "sa": 85,
+                "sd": 85,
+                "sp": 85
+            },
+            "ivs": {
+                "hp": 15,
+                "at": 15,
+                "df": 15,
+                "sa": 15,
+                "sd": 15,
+                "sp": 15
+            },
+            "moves": [
+                "Shadow Claw",
+                "Iron Tail",
+                "Crunch",
+                "Play Rough"
+            ],
+            "nature": "Jolly",
+            "item": "Mightyenite",
+            "isCustomSet": true
+        },
+	},
+	"Mightyena-Mega": {
+		"Dream Catcher Aurora 1": {
+            "ability": "Dark Surge",
             "level": 58,
             "evs": {
                 "hp": 85,
@@ -4335,6 +4364,35 @@ var SETDEX_SV = {
             ],
             "nature": "Naive",
             "item": "White Herb",
+            "isCustomSet": true
+        },
+		"Mascot Emily": {
+            "ability": "Static",
+            "level": 50,
+            "evs": {
+                "hp": 75,
+                "at": 75,
+                "df": 75,
+                "sa": 75,
+                "sd": 75,
+                "sp": 75
+            },
+            "ivs": {
+                "hp": 13,
+                "at": 13,
+                "df": 13,
+                "sa": 13,
+                "sd": 13,
+                "sp": 13
+            },
+            "moves": [
+                "Charge",
+                "Flamethrower",
+                "Discharge",
+                "HP Ice"
+            ],
+            "nature": "Timid",
+            "item": "Manectite",
             "isCustomSet": true
         }
     },
@@ -6233,6 +6291,24 @@ var SETDEX_SV = {
             "nature": "Random",
             "item": "Dragon Fang",
             "isCustomSet": true
+        },
+		"Ranger Aderyn [Double Battle]": {
+            "ability": "Cloud Nine",
+            "level": 65,
+            "evs": {
+                "hp": 252,
+                "df": 20,
+                "sa": 236
+            },
+            "moves": [
+                "Hyper Voice",
+                "Dragon Pulse",
+                "Flamethrower",
+                "Roost"
+            ],
+            "nature": "Modest",
+            "item": "Altarianite",
+            "isCustomSet": true
         }
     },
     "Litten": {
@@ -6682,6 +6758,35 @@ var SETDEX_SV = {
                 "Heal Pulse"
             ],
             "nature": "Serious",
+            "isCustomSet": true
+        },
+		"Grand Idol Rosetta": {
+            "ability": "Telepathy",
+            "level": 60,
+            "evs": {
+                "hp": 85,
+                "at": 85,
+                "df": 85,
+                "sa": 85,
+                "sd": 85,
+                "sp": 85
+            },
+            "ivs": {
+                "hp": 15,
+                "at": 15,
+                "df": 15,
+                "sa": 15,
+                "sd": 15,
+                "sp": 15
+            },
+            "moves": [
+                "Hyper Voice",
+                "Psyshock",
+                "Will-O-Wisp",
+                "HP Fire"
+            ],
+            "nature": "Calm",
+            "item": "Gardevoirite",
             "isCustomSet": true
         }
     },
@@ -8078,6 +8183,35 @@ var SETDEX_SV = {
             "nature": "Serious",
             "isCustomSet": true
         },
+		"Black Belt Brutus 2": {
+            "ability": "Pure Power",
+            "level": 47,
+            "evs": {
+                "hp": 70,
+                "at": 70,
+                "df": 70,
+                "sa": 70,
+                "sd": 70,
+                "sp": 70
+            },
+            "ivs": {
+                "hp": 10,
+                "at": 10,
+                "df": 10,
+                "sa": 10,
+                "sd": 10,
+                "sp": 10
+            },
+            "moves": [
+                "Fake Out",
+                "Brick Break",
+                "Rock Tomb",
+                "Psychic"
+            ],
+            "nature": "Hasty",
+            "item": "Medichamite",
+            "isCustomSet": true
+        },
         "Street Punk Samuel": {
             "ability": "Pure Power",
             "level": 57,
@@ -9077,6 +9211,24 @@ var SETDEX_SV = {
             ],
             "nature": "Jolly",
             "item": "Flame Orb",
+            "isCustomSet": true
+        },
+		"Black Fox Scientist Waldenhall": {
+            "ability": "Intimidate",
+            "level": 72,
+            "evs": {
+                "at": 252,
+                "df": 12,
+                "sp": 244
+            },
+            "moves": [
+                "Wild Charge",
+                "Ice Fang",
+                "Psychic Fangs",
+                "Crunch"
+            ],
+            "nature": "Jolly",
+			"item": "Luxrite",
             "isCustomSet": true
         }
 	},
@@ -11435,11 +11587,45 @@ var SETDEX_SV = {
             "nature": "Jolly",
             "item": "Muscle Band",
             "isCustomSet": true
-        }
+        },
+		"Agent Cedric 1": {
+            "ability": "Anticipation",
+            "level": 63,
+            "evs": {
+                "at": 128,
+                "sa": 128,
+                "sp": 252
+            },
+            "moves": [
+                "Sludge Wave",
+                "Drain Punch",
+                "Fake Out",
+                "Dark Pulse"
+            ],
+            "nature": "Hasty",
+            "isCustomSet": true
+        },
+        "Agent Cedric 2": {
+            "ability": "Poison Touch",
+            "level": 70,
+            "evs": {
+                "at": 128,
+                "sa": 128,
+                "sp": 252
+            },
+            "moves": [
+                "Dark Pulse",
+                "Sludge Wave",
+                "Drain Punch",
+                "Ice Punch"
+            ],
+            "nature": "Hasty",
+            "isCustomSet": true
+        } 
 	},
 	"Toxicroak-Mega": {
 		"Agent Cedric 1": {
-            "ability": "Anticipation",
+            "ability": "Adaptability",
             "level": 63,
             "evs": {
                 "at": 128,
@@ -12290,6 +12476,35 @@ var SETDEX_SV = {
                 "Fire Punch"
             ],
             "nature": "Hardy",
+            "isCustomSet": true
+        },
+		"Ninja Tristan 1": {
+            "ability": "Limber",
+            "level": 40,
+            "evs": {
+                "hp": 60,
+                "at": 60,
+                "df": 60,
+                "sa": 60,
+                "sd": 60,
+                "sp": 60
+            },
+            "ivs": {
+                "hp": 10,
+                "at": 10,
+                "df": 10,
+                "sa": 10,
+                "sd": 10,
+                "sp": 10
+            },
+            "moves": [
+                "Low Sweep",
+                "Double Hit",
+                "Fire Punch",
+                "Fake Out"
+            ],
+            "nature": "Jolly",
+            "item": "Lopunnite",
             "isCustomSet": true
         }
     },
@@ -14131,6 +14346,22 @@ var SETDEX_SV = {
             "nature": "Jolly",
             "item": "Focus Sash",
             "isCustomSet": true
+        },
+		"Brawler Garret": {
+            "ability": "Inner Focus",
+            "level": 65,
+            "evs": {
+                "sp": 1
+            },
+            "moves": [
+                "Bullet Punch",
+                "Brick Break",
+                "Thunder Punch",
+                "Meteor Mash"
+            ],
+            "nature": "Jolly",
+            "item": "Lucarionite",
+            "isCustomSet": true
         }
     },
     "Infernape": {
@@ -14508,7 +14739,7 @@ var SETDEX_SV = {
     },
     "Banette-Mega": {
         "Grand Rogue 1": {
-            "ability": "Insomnia",
+            "ability": "Prankster",
             "level": 47,
             "evs": {
                 "hp": 70,
@@ -16550,6 +16781,64 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy",
             "isCustomSet": true
+        },
+		"Grand Rogue 1": {
+            "ability": "Insomnia",
+            "level": 47,
+            "evs": {
+                "hp": 70,
+                "at": 70,
+                "df": 70,
+                "sa": 70,
+                "sd": 70,
+                "sp": 70
+            },
+            "ivs": {
+                "hp": 20,
+                "at": 20,
+                "df": 20,
+                "sa": 20,
+                "sd": 20,
+                "sp": 20
+            },
+            "moves": [
+                "Shadow Claw",
+                "Confuse Ray",
+                "Dazzling Gleam",
+                "Shadow Sneak"
+            ],
+            "nature": "Naughty",
+            "item": "Banettite",
+            "isCustomSet": true
+        },
+        "Grand Rogue 2": {
+            "ability": "Insomnia",
+            "level": 50,
+            "evs": {
+                "hp": 75,
+                "at": 75,
+                "df": 75,
+                "sa": 75,
+                "sd": 75,
+                "sp": 75
+            },
+            "ivs": {
+                "hp": 25,
+                "at": 25,
+                "df": 25,
+                "sa": 25,
+                "sd": 25,
+                "sp": 25
+            },
+            "moves": [
+                "Shadow Claw",
+                "Sucker Punch",
+                "Dazzling Gleam",
+                "Confuse Ray"
+            ],
+            "nature": "Brave",
+            "item": "Banettite",
+            "isCustomSet": true
         }
     },
     "Gorebyss": {
@@ -17741,6 +18030,64 @@ var SETDEX_SV = {
                 "Thunder Wave"
             ],
             "nature": "Hardy",
+            "isCustomSet": true
+        },
+		"Team Crescent Scarlett 2": {
+            "ability": "Skill Link",
+            "level": 50,
+            "evs": {
+                "hp": 75,
+                "at": 75,
+                "df": 75,
+                "sa": 75,
+                "sd": 75,
+                "sp": 75
+            },
+            "ivs": {
+                "hp": 15,
+                "at": 15,
+                "df": 15,
+                "sa": 15,
+                "sd": 15,
+                "sp": 15
+            },
+            "moves": [
+                "Aqua Tail",
+                "Starfall",
+                "Tail Slap",
+                "Thunder Wave"
+            ],
+            "nature": "Impish",
+			"item": "Cinccinite",
+            "isCustomSet": true
+        },
+        "Trainer Scarlett 3": {
+            "ability": "Skill Link",
+            "level": 59,
+            "evs": {
+                "hp": 85,
+                "at": 85,
+                "df": 85,
+                "sa": 85,
+                "sd": 85,
+                "sp": 85
+            },
+            "ivs": {
+                "hp": 25,
+                "at": 25,
+                "df": 25,
+                "sa": 25,
+                "sd": 25,
+                "sp": 25
+            },
+            "moves": [
+                "Sing",
+                "Starfall",
+                "Tail Slap",
+                "Wake-Up Slap"
+            ],
+            "nature": "Impish",
+			"item": "Cinccinite",
             "isCustomSet": true
         }
     },
@@ -25156,6 +25503,24 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant",
             "item": "Leftovers",
+            "isCustomSet": true
+        },
+		"Peculiar Being Jarred [Doubles]": {
+            "ability": "Sheer Force",
+            "level": 70,
+            "evs": {
+                "at": 248,
+                "sd": 8,
+                "sp": 252
+            },
+            "moves": [
+                "Gunk Shot",
+                "Dragon Dance",
+                "Dive",
+                "Earthquake"
+            ],
+            "nature": "Adamant",
+			"item": "Feraligatrite",
             "isCustomSet": true
         }
 	},
