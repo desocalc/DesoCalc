@@ -231,8 +231,13 @@ function calculateSMSS(gen, attacker, defender, move, field) {
         typeEffectiveness /= 2;
         desc.weather = field.weather;
     }
-	if (field.hasTerrain('Darkness 3') && defender.hasType('Ghost', 'Dark') &&
-        gen.types.get((0, util_1.toID)(move.type)).effectiveness['Ghost', 'Dark'] > 1) {
+	if (field.hasTerrain('Darkness 3') && defender.hasType('Ghost') &&
+        gen.types.get((0, util_1.toID)(move.type)).effectiveness['Ghost'] > 1) {
+        typeEffectiveness /= 2;
+        desc.terrain = field.terrain;
+	}
+	if (field.hasTerrain('Darkness 3') && defender.hasType('Dark') &&
+        gen.types.get((0, util_1.toID)(move.type)).effectiveness['Dark'] > 1) {
         typeEffectiveness /= 2;
         desc.terrain = field.terrain;
 	}
