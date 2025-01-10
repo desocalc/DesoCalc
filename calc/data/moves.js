@@ -2550,7 +2550,18 @@ var SM_PATCH = {
         category: 'Physical',
         isZ: true
     },
-    'Menacing Moonraze Maelstrom': { bp: 200, type: 'Ghost', category: 'Special', isZ: true },
+    'Menacing Moonraze Maelstrom': { 
+    	bp: 200, 
+    	type: 'Ghost', 
+    	category: 'Special', 
+    	isZ: true 
+    },
+    'Meteor Assault': {
+	bp: 150,
+	type: 'Fighting',
+	category: 'Physical',
+	zp: 200
+    },
     'Mind Blown': {
         bp: 150,
         type: 'Fire',
