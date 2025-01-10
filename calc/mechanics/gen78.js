@@ -1485,7 +1485,7 @@ function calculateBasePowerSMSS(gen, attacker, defender, move, field, hasAteAbil
 			if (move.hasType('Fighting')) {
 				basePower *= 1.3;
 			}
-			if (move.hasType('Psychic') && (move.category === 'Special')) {
+			else if (move.hasType('Psychic') && (move.category === 'Special')) {
 				basePower *= 0.8
 			}
 			desc.moveBP = basePower;
