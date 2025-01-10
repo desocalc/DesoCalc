@@ -18922,7 +18922,7 @@ var SETDEX_SV = {
             "nature": "Hardy",
             "isCustomSet": true
         },
-        "Team Crescent Head Baron [Doubles]": {
+        "Team Crescent Head Baron 1": {
             "ability": "Poison Touch",
             "level": 64,
             "evs": {
@@ -23428,7 +23428,7 @@ var SETDEX_SV = {
             "nature": "Hardy",
             "isCustomSet": true
         },
-        "Team Crescent Head Baron [Doubles]": {
+        "Team Crescent Head Baron 1": {
             "ability": "Cursed Body",
             "level": 64,
             "evs": {
@@ -24593,7 +24593,7 @@ var SETDEX_SV = {
             "item": "Cell Battery",
             "isCustomSet": true
         },
-        "Team Crescent Head Baron [Doubles]": {
+        "Team Crescent Head Baron 1": {
             "ability": "Levitate",
             "level": 65,
             "evs": {
@@ -24710,7 +24710,7 @@ var SETDEX_SV = {
         }
     },
     "Heracross-Mega": {
-        "Team Crescent Head Baron [Doubles]": {
+        "Team Crescent Head Baron 1": {
             "ability": "Skill Link",
             "level": 65,
             "evs": {
@@ -24748,7 +24748,7 @@ var SETDEX_SV = {
         }
     },
     "Serperior": {
-        "Team Crescent Head Baron [Doubles]": {
+        "Team Crescent Head Baron 1": {
             "ability": "Contrary",
             "level": 65,
             "evs": {
@@ -24762,7 +24762,7 @@ var SETDEX_SV = {
                 "Synthesis",
                 "HP Fire"
             ],
-            "nature": "-",
+            "nature": "Timid",
             "item": "Leftovers",
             "isCustomSet": true
         },
@@ -24786,7 +24786,7 @@ var SETDEX_SV = {
         }
     },
     "Hydreigon": {
-        "Team Crescent Head Baron [Doubles]": {
+        "Team Crescent Head Baron 1": {
             "ability": "Levitate",
             "level": 66,
             "evs": {
