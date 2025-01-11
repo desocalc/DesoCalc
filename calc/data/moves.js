@@ -1779,7 +1779,7 @@ var XY_PATCH = {
         category: 'Physical'
     },
     'Flying Press': {
-        bp: 80,
+        bp: 100,
         type: 'Fighting',
         makesContact: true,
         category: 'Physical'
@@ -2421,6 +2421,13 @@ var SM_PATCH = {
     },
     'Black Hole Eclipse': { bp: 1, type: 'Dark', category: 'Physical', isZ: true },
     'Bloom Doom': { bp: 1, type: 'Grass', category: 'Physical', isZ: true },
+    'Body Press': {
+	bp: 80,
+	type: 'Fighting',
+	category: 'Physical',
+	overrideOffensiveStat: 'def',
+	zp: 160
+    },
     'Bouncy Bubble': {
         bp: 90,
         type: 'Water',
